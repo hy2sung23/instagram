@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="addff07e-4e36-49fd-baef-224ad5d0849d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../backend/.idea/dictionaries/Pakr.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/accounts/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/accounts/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/accounts/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/accounts/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/accounts/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/accounts/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/accounts/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/accounts/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/backend/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/backend/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/backend/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/backend/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/backend/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/instagram/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/instagram/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/instagram/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/instagram/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/instagram/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/instagram/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/instagram/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/instagram/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/instagram/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/instagram/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/media/accounts/avatar/2020/12/16/emoji.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/media/instagram/post/2020/12/16/emoji.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/media/instagram/post/2020/12/16/emoji_npogKPO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../backend/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/frontend.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/instagram/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instagram/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instagram/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instagram/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instagram/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instagram/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instagram/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instagram/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instagram/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instagram/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instagram/src/App.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instagram/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instagram/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instagram/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instagram/src/reportWebVitals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instagram/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/instagram/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1lmDZW8PaUfn7ufyVucoE1E67yE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="addff07e-4e36-49fd-baef-224ad5d0849d" name="Default Changelist" comment="" />
+      <created>1608193443313</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608193443313</updated>
+      <workItem from="1608193447971" duration="38000" />
+      <workItem from="1608193487363" duration="1670000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="929" y="167" key="FileChooserDialogImpl" timestamp="1608193483825">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="929" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1608193483825" />
+    <state x="811" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1608194273062">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="811" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1608194273062" />
+  </component>
+</project>
