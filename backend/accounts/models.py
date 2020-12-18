@@ -18,10 +18,10 @@ class User(AbstractUser):
     @property
     def name(self):
         return f"{self.first_name} {self.last_name}"
-
-    @property
-    def avatar_url(self):
-        if self.avatar:
-            return self.avatar.url
-        else:
-            pass
+    #
+    # @property
+    # def avatar_url(self):
+    #     if self.avatar:
+    #         return self.avatar.url
+    #     else:
+    #         pass
