@@ -1,9 +1,8 @@
-import React, {useState} from "react"
-import {Button, Form, Input, notification} from "antd";
-import {useHistory} from "react-router-dom"
-import Axios from "axios";
+import {Form, Input, Button, Checkbox, notification} from 'antd';
 import {FrownOutlined, SmileOutlined} from "@ant-design/icons";
-
+import React, {useState} from "react";
+import {useHistory} from 'react-router-dom'
+import Axios from "axios";
 const layout = {
     labelCol: {
         span: 8,
@@ -19,29 +18,26 @@ const tailLayout = {
     },
 };
 
-
-export default function Login() {
-
+export default function Signup() {
     const history = useHistory();
     const [fieldErrors, setFieldErrors] = useState({});
-
     const onFinish = values => {
         async function fn(){
             const {username, password} = values
             const data = {username, password}
             try {
-                const response = await Axios.post('http://localhost:8000/account/login/', data)
+                const response = await Axios.post('http://localhost:8000/account/signup/', data)
                 notification.open({
-                    message: "로그인 성공",
-                    description: "순간이동!!!!",
+                    message: "회원가입 성공",
+                    description: "로그인 페이지로 이동합니다.",
                     icon: <SmileOutlined style={{ color: "#108ee9" }} />
                 });
-                history.push("/")
+                history.push("/account/login")
             }
-            catch (error) {
+            catch (error){
                 if(error.response) {
                     notification.open({
-                        message: "로그인 실패",
+                        message: "회원가입 실패",
                         description: "아이디/암호를 확인해주세요.",
                         icon: <FrownOutlined style={{ color: "#ff3333" }} />
                     });
@@ -50,17 +46,21 @@ export default function Login() {
                     setFieldErrors(
                         Object.entries(fieldsErrorMessages).reduce(
                             (acc,[fieldName, errors]) => {
-                                acc[fieldName] = {
-                                    validateStatus: 'error',
-                                    help: errors.join(" ")
-                                }
-                                return acc;
-                            }, {}) //이부분 뭔소린지 모름;
+                            acc[fieldName] = {
+                                validateStatus: 'error',
+                                help: errors.join(" ")
+                            }
+                            return acc;
+                        }, {}) //이부분 뭔소린지 모름;
                     )
                 }
-            } //error handling
+            }
         }
         fn();
+    };
+
+    const onFinishFailed = (errorInfo) => {
+        console.log('onFinishFailed', errorInfo);
     };
 
     return (
@@ -71,6 +71,7 @@ export default function Login() {
                 remember: true,
             }}
             onFinish={onFinish}
+            onFinishFailed={onFinishFailed}
         >
             <Form.Item
                 label="Username"
@@ -107,9 +108,9 @@ export default function Login() {
 
             <Form.Item {...tailLayout}>
                 <Button type="primary" htmlType="submit">
-                    로그인
+                    회원가입
                 </Button>
             </Form.Item>
         </Form>
     );
-}
+};
